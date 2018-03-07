@@ -1,0 +1,155 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Karma');
+.logoblock {
+  float:left;
+  box-sizing: border-box;
+  width: 350px;
+  height: 500px;
+  /*border: 2px solid black;*/
+  }
+
+  .logoblock .logo {
+    box-sizing: border-box;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
+    border: 2px solid aqua;
+    border-radius: 200px;
+    background: url(logo2.jpg);
+    background-size: cover;
+    z-index: 1;
+  }
+
+  .logoblock .iconslist {
+    width: 200px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-left: 10px;
+    border:2px solid white;
+  }
+
+
+  ul li {
+    display: inline-block;
+    width: 28px;
+    box-sizing: border-box;
+    /*border: 2px solid black;*/
+    border-radius: 30px;
+    height: 25px;
+  }
+
+  ul li:hover {
+    border: 1px solid white;
+  }
+  .twitter, .facebook, .telegram, .instagram {
+    box-sizing: border-box;
+    position: relative;
+    z-index: 2;
+  }
+  .twitter {
+    bottom: 150px;
+    right: 40px;
+    background: url(sprite.jpg) 0 0px;
+  }
+  .facebook {
+    bottom: 70px;
+    left: 45px;
+    background: url(sprite.jpg) 0 -25px;
+  }
+
+  .telegram {
+    bottom: 95px;
+    left: 30px;
+    background: url(sprite.jpg) 0 -50px;
+  }
+
+  .instagram {
+    bottom: 120px;
+    left: 5px;
+    background: url(sprite.jpg) 0 -75px;
+  }
+
+  .colorblocks {
+    margin-left: 10%;
+    margin-top: 10%;
+    display: inline-block;
+    float: left;
+    box-sizing: border-box;
+    /*border: 2px solid black;*/
+    width: 340px;
+    height: 100%;
+  }
+  .colorblocks .red {
+    position: relative;
+    background: url(sprite2.jpg) 0 0px;
+    box-sizing: border-box;
+    width: 300px;
+    height: 500px;
+    z-index: 3;
+  }
+.colorblocks .blue {
+  position: relative;
+  background: url(sprite2.jpg) 0 -500px;
+  box-sizing: border-box;
+  width: 300px;
+  height: 500px;
+  z-index: 2;
+  bottom: 520px;
+  left: 20px;
+}
+.colorblocks .violet {
+  position: relative;
+  background: url(sprite2.jpg) 0 -1000px;
+  box-sizing: border-box;
+  width: 300px;
+  height: 500px;
+  z-index: 1;
+  bottom: 1040px;
+  left: 40px;
+}
+  .fixed {
+    margin-left: 15%;
+    margin-top: 30%;
+    padding-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+    display: inline-block;
+    width: 270px;
+    height: 120px;
+    box-sizing: border-box;
+    /*border: 3px solid blue;*/
+    background-color: rgb(95, 95, 95);
+  }
+  .fixed .square {
+    margin-right: 10px;
+    float: left;
+    width: 80px;
+    height: 80px;
+    box-sizing: border-box;
+    /*border: 2px solid white;*/
+    background-color: rgb(243, 233, 135);
+  }
+  .fixed .text {
+    position: relative;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 60%;
+    height: 100px;
+    /*border: 2px solid white;*/
+    bottom: 15px;
+  }
+  .text p {
+    color: rgb(230, 230, 230);
+    font-size: 10px;
+    white-space: pre;
+  }
+  .text p .question {
+    font-family: 'Karma', serif;
+    font-size: 13px;
+  }
+  .text p {
+    font-family: 'Karma', serif;
+    font-size: 11px;
+  }
