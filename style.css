@@ -1,15 +1,17 @@
 
 
 @import url('https://fonts.googleapis.com/css?family=Karma');
-.logoblock {
+/* .logoblock {
   float:left;
   box-sizing: border-box;
   width: 350px;
   height: 500px;
-  /*border: 2px solid black;*/
-  }
-
-  .logoblock .logo {
+  border: 2px solid black;
+  } */
+body {
+  height: 2500px;
+}
+  .logo {
     box-sizing: border-box;
     margin-left: 20px;
     margin-top: 20px;
@@ -19,55 +21,52 @@
     border-radius: 200px;
     background: url(logo2.jpg);
     background-size: cover;
-    z-index: 1;
+    z-index: 5;
+    float: left;
   }
-
-  .logoblock .iconslist {
-    width: 200px;
-    box-sizing: border-box;
-    margin-top: 20px;
-    margin-left: 10px;
-    border:2px solid white;
-  }
-
+ul {
+  float: left;
+}
 
   ul li {
     display: inline-block;
     width: 28px;
     box-sizing: border-box;
-    /*border: 2px solid black;*/
+    border: 2px solid black;
     border-radius: 30px;
     height: 25px;
+    float: left;
   }
 
-  ul li:hover {
+  /* ul li:hover {
     border: 1px solid white;
-  }
+  } */
   .twitter, .facebook, .telegram, .instagram {
+    /* width: 28px; */
     box-sizing: border-box;
-    position: relative;
+    /* position: relative; */
     z-index: 2;
   }
   .twitter {
-    bottom: 150px;
-    right: 40px;
+    /* bottom: 150px;
+    right: 40px; */
     background: url(sprite.jpg) 0 0px;
   }
   .facebook {
-    bottom: 70px;
-    left: 45px;
+    /* bottom: 70px;
+    left: 45px; */
     background: url(sprite.jpg) 0 -25px;
   }
 
   .telegram {
-    bottom: 95px;
-    left: 30px;
+    /* bottom: 95px;
+    left: 30px; */
     background: url(sprite.jpg) 0 -50px;
   }
 
   .instagram {
-    bottom: 120px;
-    left: 5px;
+    /* bottom: 120px;
+    left: 5px; */
     background: url(sprite.jpg) 0 -75px;
   }
 
@@ -77,7 +76,7 @@
     display: inline-block;
     float: left;
     box-sizing: border-box;
-    /*border: 2px solid black;*/
+    border: 2px solid black;
     width: 340px;
     height: 500px;
   }
@@ -88,6 +87,7 @@
     width: 300px;
     height: 500px;
     z-index: 3;
+    /* border: 2px solid black; */s
   }
 .colorblocks .blue {
   position: relative;
@@ -98,6 +98,7 @@
   z-index: 2;
   bottom: 520px;
   left: 20px;
+  /* border: 2px solid black; */
 }
 .colorblocks .violet {
   position: relative;
@@ -110,8 +111,8 @@
   left: 40px;
 }
   .fixed {
-    margin-left: 15%;
-    margin-top: 30%;
+    right: 0;
+    bottom: 300px;
     padding-top: 20px;
     padding-left: 20px;
     position: fixed;
@@ -119,16 +120,18 @@
     width: 270px;
     height: 120px;
     box-sizing: border-box;
-    /*border: 3px solid blue;*/
+    border: 3px solid blue;
     background-color: rgb(95, 95, 95);
+    z-index: 15;
   }
   .fixed .square {
+    /* margin-left: 20px; */
     margin-right: 10px;
     float: left;
     width: 80px;
     height: 80px;
     box-sizing: border-box;
-    /*border: 2px solid white;*/
+    border: 2px solid white;
     background-color: rgb(243, 233, 135);
   }
   .fixed .text {
@@ -137,7 +140,7 @@
     display: inline-block;
     width: 60%;
     height: 100px;
-    /*border: 2px solid white;*/
+    border: 2px solid white;
     bottom: 15px;
   }
   .text p {
